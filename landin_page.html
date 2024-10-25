@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bebidas de Naranja</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        body {
+            background-image: url('1.png');
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+        }
+    </style>
+</head>
+<body class="bg-gray-100 font-sans">
+
+    <!--Sección principal-->
+    <section class="bg-orange-500 bg-opacity-75 text-white py-20">
+        <div class="container mx-auto px-6 text-center">
+            <h1 class="text-4xl font-bold mb-2">¡Refresca tu día con nuestras Bebidas de Naranja Naturales!</h1>
+            <p class="text-lg mb-6">Descubre el sabor auténtico de nuestras bebidas hechas con naranjas frescas y naturales. ¡Aprovecha ahora nuestras ofertas exclusivas!</p>
+            <a href="#cta" class="bg-yellow-400 text-gray-800 font-semibold px-8 py-3 rounded-lg hover:bg-yellow-500">¡Prueba ahora!</a>
+        </div>
+    </section>
+ <!-- tarjetas -->
+    <section class="py-16">
+        <div class="container mx-auto px-6 text-center">
+            <h2 class="text-2xl font-bold mb-8">¿Por qué nuestras bebidas de naranja?</h2>
+            <div class="flex flex-wrap justify-center gap-6">
+                <!--Tarjeta 1-->
+                <div class="bg-white bg-opacity-75 shadow-lg rounded-lg p-6 max-w-sm transform hover:scale-125 transition duration-300 ease-linear">
+                    <h3 class="font-semibold text-lg">100% Naturales</h3>
+                    <p>Nuestras bebidas están elaboradas con naranjas frescas, sin aditivos ni conservantes, para que disfrutes de un sabor natural.</p>
+                </div>
+    
+                <!--Tarjeta 2 -->
+                <div class="bg-white bg-opacity-75 shadow-lg rounded-lg p-6 max-w-sm transform hover:scale-125 transition duration-300 ease-in">
+                    <h3 class="font-semibold text-lg">Ricas en Vitamina C</h3>
+                    <p>Las naranjas son una excelente fuente de vitamina C, perfecta para fortalecer tu sistema inmune.</p>
+                </div>
+    
+                <!--Tarjeta 3 -->
+                <div class="bg-white bg-opacity-75 shadow-lg rounded-lg p-6 max-w-sm transform hover:scale-125 transition duration-300 ease-out">
+                    <h3 class="font-semibold text-lg">Sabor Refrescante</h3>
+                    <p>Con un toque dulce y cítrico, nuestras bebidas son perfectas para cualquier ocasión, ya sea un día de calor o para acompañar tus comidas.</p>
+                </div>
+    
+                <!--Tarjeta 4 -->
+                <div class="bg-white bg-opacity-75 shadow-lg rounded-lg p-6 max-w-sm transform hover:scale-125 transition duration-300 ease-in-out">
+                    <h3 class="font-semibold text-lg">Sin Conservantes</h3>
+                    <p>Nuestras bebidas no contienen conservantes artificiales, garantizando un producto 100% natural y saludable.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+
+     <!--Formulario-->
+     <section id="cta" class="py-16">
+        <div class="container mx-auto px-6 text-center">
+            <h2 class="text-2xl font-bold mb-8">Déjanos tu contacto</h2>
+            <form class="bg-white bg-opacity-80 p-6 rounded-lg shadow-md max-w-lg mx-auto">
+                <div class="mb-4">
+                    <label class="block text-gray-700 font-bold mb-2" for="name">Nombre</label>
+                    <input class="w-full px-4 py-2 border rounded-lg focus:outline-none focus:ring-2 focus:ring-orange-500" type="text" id="name" placeholder="Tu nombre" required>
+                </div>
+                
+                <div class="mb-4">
+                    <label class="block text-gray-700 font-bold mb-2" for="email">Correo Electrónico</label>
+                    <input class="w-full px-4 py-2 border rounded-lg focus:outline-none focus:ring-2 focus:ring-orange-500" type="email" id="email" placeholder="tucorreo@mail.com" required>
+                </div>
+                <button type="submit" class="bg-orange-500 text-white font-bold px-6 py-2 rounded-lg hover:bg-orange-600">Enviar</button>
+            </form>
+        </div>
+    </section>
+
+    <!--agradecimiento-->
+    <section class="bg-orange-600 bg-opacity-75 text-white py-8">
+        <div class="container mx-auto px-6 text-center">
+            <h2 class="text-2xl font-bold">¡Gracias por tu interés!</h2>
+            <p>Nos pondremos en contacto contigo pronto. Mientras tanto, ¡disfruta de nuestras bebidas!</p>
+        </div>
+    </section>
+
+</body>
+</html>
